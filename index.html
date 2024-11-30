@@ -7,20 +7,55 @@
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
+    <!-- *TODO: nav-button 할당-->
     <div class = "nav-bar">
-        <!-- *TODO: nav-button 할당-->
         <a href = "#" class = "nav-bar__item" id = "nav-bar__home"><i class="fa-solid fa-house"></i></a>
-        <a href = "#profile" class = "nav-bar__item">Introduction</a>
-        <a href = "#about" class = "nav-bar__item">Achievements</a>
-        <a href = "#project" class = "nav-bar__item">Project</a>
+        <a href = "#profile" class = "nav-bar__item">About Me</a>
+        <a href = "#about" class = "nav-bar__item">Achievement</a>
         <a href = "#skill" class = "nav-bar__item">Skill</a>
+        <a href = "#project" class = "nav-bar__item">Project</a>
         <a href = "#career" class = "nav-bar__item">Career</a>
         <a href = "#contact" class = "nav-bar__item">Contact</a>
     </div>
-    <div id = "index-profile" class = "profile">
-        <img id = "index-profile__img" class = "profile__img" src="./public/img/ex-profile.JPG" alt="profile">
+
+    <div id = "profile" class = "profile">
+        <img class = "profile__img" src="./public/img/ex-profile.JPG" alt="profile">
         <h1 class = "profile__title">Hello, I'm Dellyu03</h1>
-        <p id = "index-profile__text" class = "profile__text">새로운 경험을 사랑하고 모든 과정에서 배울 점을 찾는 개발자 유승환니다.</p>
+        <p class = "profile__text">새로움을 즐기는 개발자 유승환입니다.</p>
+    </div>
+
+    <div class = "title">About Me</div>
+    <!-- *TODO: 반응형 웹 처리-->
+    <div class = "img-banner">
+        <div class = "img-banner__content-container">
+            <img class = "img-banner__img" src="./public/img/coffee-with-laptop.jpg" alt="coffee-with-laptop">
+            <div class = "img-banner__content-text-container">
+                <div class = "img-banner__content-title">소통과 교류에 익숙한<br>개발자</div>
+                <div class = "img-banner__content-text">팀 프로젝트 경험이 많으며 다수의 교육에도 참여했습니다.</div>
+                <div class = "img-banner__content-title">새로운 경험을 좋아하는<br>개발자</div>
+                <div class = "img-banner__content-text">다양한 프로젝트를 경험하며 여러 기술을 접해봤으며 새로운 것을 배우는 것을 즐깁니다</div>
+                <div class = "img-banner__content-title">글쓰기를 좋아하는 <br>개발자</div>
+                <div class = "img-banner__content-text">글쓰기를 타인과의 주요 교류 창구로 생각하며 좋은 글쓰기에 대해 관심이 많으며 많은 고민을 하였습니다. <br> 또한 기록하는것을 즐기며 좋은 개발 문서란 무엇인가에 관심이 많아 다양한 개발 문서들을 읽고 번역 작업도 참여했습니다. </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievement">
+        <div class="title">Achievement</div>
+    </div>
+
+    <div class="skill"></div>
+        <div class="title">Skill</div>
+    </div>
+    
+    <div class="project">
+        <div class="title">Project</div>
+    </div>
+    <div class="career">
+        <div class="title">Career</div>
+    </div>
+    <div class="contact">
+        <div class="title">Contact</div>
     </div>
 
     <script src="https://kit.fontawesome.com/2da93f64de.js" crossorigin="anonymous"></script>

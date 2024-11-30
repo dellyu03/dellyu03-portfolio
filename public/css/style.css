@@ -1,16 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import "./reset.css";
-
+@import "./variables.css";
 /* Component */
 @import "./components/nav-bar.css";
 @import "./components/profile.css";
+@import "./components/img-banner.css";
 
-/* Page */
+
+/* Section */
+@import "./sections/profile.css";
+@import "./sections/career.css";
 
 body {
     background-color: #161616;
     color: #fff;
     font-family: "Inter", sans-serif;
 
-    height: 600vh;
+    height: 700vh;
+}
+
+.title {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }

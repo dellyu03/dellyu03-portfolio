@@ -1,11 +1,10 @@
-#index-profile {
+#profile {
     /* Display & Box Model */
     display: flex;
-    width: 100%;
-    height: 70%;
+    width: 100vw;
+    height: 90vh;
     margin: auto;
-    margin-top: 3%;
-    
+    margin-top: 3%;    
     /* Flex */
     flex-direction: column;
     align-items: center;
@@ -14,16 +13,13 @@
 .profile__img {
     /* Visual */
     border-radius: 50%;
-}
-
-#index-profile > .profile__img {
     /* Box Model */
     width: 350px;
     height: 350px;
     margin-top: 5%;
 }
 
-#index-profile > .profile__title {
+.profile__title {
     /* Box Model */
     width: 80%;
     margin-top: 5%;
@@ -33,7 +29,7 @@
     font-weight: 800;
 }
 
-#index-profile > .profile__text {
+.profile__text {
     /* Box Model */
     width: 80%;
     margin-top: 1%;
